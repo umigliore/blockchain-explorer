@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Preference Dialog",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -51,7 +51,13 @@
 					"left": 123,
 					"width": 250,
 					"height": 17,
-					"sizingX": "grow"
+					"sizingX": "grow",
+					"enterable": false,
+					"focusable": false,
+					"contextMenu": "none",
+					"borderStyle": "none",
+					"fill": "#ECECEC",
+					"textAlign": "left"
 				},
 				"label_Name": {
 					"type": "text",

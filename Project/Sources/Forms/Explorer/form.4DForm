@@ -14,7 +14,7 @@
 	"events": [
 		"onLoad"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Nexid Blockchain Explorer",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -35,10 +35,10 @@
 				},
 				"Button": {
 					"type": "button",
-					"text": "Ultimo Blocco",
+					"text": "Read Last Block",
 					"top": 13,
 					"left": 17,
-					"width": 99,
+					"width": 139,
 					"height": 27,
 					"events": [
 						"onClick"
@@ -58,5 +58,6 @@
 			}
 		}
 	],
-	"method": "method.4dm"
+	"method": "method.4dm",
+	"menuBar": "Barre #1"
 }
