@@ -1,0 +1,62 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"tResult": {
+					"type": "input",
+					"left": 15,
+					"top": 47,
+					"width": 582,
+					"height": 417,
+					"enterable": false,
+					"dataSource": "tResult",
+					"sizingX": "grow",
+					"sizingY": "grow"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Ultimo Blocco",
+					"top": 13,
+					"left": 17,
+					"width": 99,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Text": {
+					"type": "text",
+					"text": "©2019 Nexid srl, all rights reserved.",
+					"top": 472,
+					"left": 13,
+					"width": 584,
+					"height": 16,
+					"sizingX": "grow",
+					"sizingY": "move"
+				}
+			}
+		}
+	],
+	"method": "method.4dm"
+}

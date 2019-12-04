@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="" uuid="B9DCC727C22B44A2BBB010AF07D7DFD6" collation_locale="it">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Preferences" uuid="D01253A1D096430ABB9B91C592BD8AF0" id="1">
+		<field name="ID" uuid="FE21CDC217A04B9EAE6631FE831C01D9" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Name" uuid="0424006970CF4BDE98DC39769EDB7893" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Value" uuid="193C2CFF21E148E08C134CA6A40D97FC" type="21" blob_switch_size="2147483647" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="FE21CDC217A04B9EAE6631FE831C01D9"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="D22F542DE9BD459D8F24C59F3E78EA27" type="7">
+		<field_ref uuid="FE21CDC217A04B9EAE6631FE831C01D9" name="ID">
+			<table_ref uuid="D01253A1D096430ABB9B91C592BD8AF0" name="Preferences"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0">
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

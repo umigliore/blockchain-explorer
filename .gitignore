@@ -1,0 +1,17 @@
+# 4D
+
+Data/*
+Settings/*
+userPreferences*/*
+Project/DerivedData/CompiledCode
+
+# Old versions and data file
+*.4DD
+*.4DIndx
+*.4DB
+*.4DIndy
+*.journal
+
+# for OS
+# https://github.com/github/gitignore/tree/master/Global
+
