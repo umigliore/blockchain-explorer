@@ -16,7 +16,7 @@
 	"events": [
 		"onLoad"
 	],
-	"windowTitle": "window title",
+	"windowTitle": "Preference Dialog",
 	"destination": "listScreen",
 	"pages": [
 		{
@@ -34,45 +34,20 @@
 					"right": 790,
 					"sizingX": "grow"
 				},
-				"label_ID": {
-					"type": "text",
-					"text": "ID",
-					"top": 10,
-					"left": 10,
-					"width": 61,
-					"height": 17
-				},
-				"field_ID": {
-					"type": "input",
-					"dataSource": "[Preferences:1]ID:1",
-					"top": 37,
-					"left": 10,
-					"width": 110,
-					"height": 17,
-					"borderStyle": "none"
-				},
-				"line_1": {
-					"type": "line",
-					"top": 0,
-					"height": 60,
-					"left": 125,
-					"width": 0,
-					"startPoint": "topLeft"
-				},
 				"label_Name": {
 					"type": "text",
 					"text": "Name",
 					"top": 10,
-					"left": 130,
-					"width": 100,
+					"left": 10,
+					"width": 80,
 					"height": 17
 				},
 				"field_Name": {
 					"type": "input",
 					"dataSource": "[Preferences:1]Name:2",
 					"top": 37,
-					"left": 130,
-					"width": 150,
+					"left": 10,
+					"width": 130,
 					"height": 17,
 					"borderStyle": "none"
 				},
@@ -80,7 +55,7 @@
 					"type": "line",
 					"top": 0,
 					"height": 60,
-					"left": 265,
+					"left": 145,
 					"width": 0,
 					"startPoint": "topLeft"
 				},
@@ -88,21 +63,22 @@
 					"type": "text",
 					"text": "Value",
 					"top": 10,
-					"left": 270,
-					"width": 100,
+					"left": 150,
+					"width": 225,
 					"height": 17
 				},
 				"field_Value": {
 					"type": "input",
 					"dataSource": "[Preferences:1]Value:3",
 					"top": 37,
-					"left": 270,
-					"width": 510,
+					"left": 150,
+					"width": 635,
 					"height": 17,
 					"borderStyle": "none",
 					"sizingX": "grow"
 				}
 			}
 		}
-	]
+	],
+	"menuBar": "Barre #1"
 }

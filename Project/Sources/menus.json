@@ -23,8 +23,13 @@
 			"title": ":xliff:CommonMenuFile",
 			"items": [
 				{
-					"title": "Explorer",
+					"title": "Explorer...",
 					"method": "Blockchain_Explorer",
+					"startNewProcess": true
+				},
+				{
+					"title": "Preferences...",
+					"method": "Pref_dialog",
 					"startNewProcess": true
 				},
 				{
