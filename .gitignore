@@ -4,7 +4,7 @@ Data/*
 Logs/*
 Settings/*
 userPreferences*/*
-Project/DerivedData/CompiledCode
+Project/DerivedData/*
 
 # Old versions and data file
 *.4DD
