@@ -1,0 +1,463 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 50,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[Transactions:3]ID:1",
+					"top": 50,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"enterable": false,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none"
+				},
+				"label_blockNumber": {
+					"type": "text",
+					"text": "blockNumber:",
+					"top": 87,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_blockNumber": {
+					"type": "input",
+					"dataSource": "[Transactions:3]blockNumber:2",
+					"top": 87,
+					"left": 120,
+					"width": 150,
+					"height": 17,
+					"enterable": false,
+					"fontWeight": "bold"
+				},
+				"label_blockHash": {
+					"type": "text",
+					"text": "blockHash:",
+					"top": 124,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_blockHash": {
+					"type": "input",
+					"dataSource": "[Transactions:3]blockHash:3",
+					"top": 124,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_from": {
+					"type": "text",
+					"text": "from:",
+					"top": 161,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_from": {
+					"type": "input",
+					"dataSource": "[Transactions:3]from:4",
+					"top": 161,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_gas": {
+					"type": "text",
+					"text": "gas:",
+					"top": 264,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_gas": {
+					"type": "input",
+					"dataSource": "[Transactions:3]gas:5",
+					"top": 264,
+					"left": 120,
+					"width": 150,
+					"height": 17,
+					"enterable": false
+				},
+				"label_gasPrice": {
+					"type": "text",
+					"text": "gasPrice:",
+					"top": 301,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_gasPrice": {
+					"type": "input",
+					"dataSource": "[Transactions:3]gasPrice:6",
+					"top": 301,
+					"left": 120,
+					"width": 150,
+					"height": 17,
+					"enterable": false
+				},
+				"label_hash": {
+					"type": "text",
+					"text": "hash:",
+					"top": 338,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_hash": {
+					"type": "input",
+					"dataSource": "[Transactions:3]hash:7",
+					"top": 338,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_input": {
+					"type": "text",
+					"text": "input:",
+					"top": 375,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_input": {
+					"type": "input",
+					"dataSource": "[Transactions:3]input:8",
+					"top": 375,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_nonce": {
+					"type": "text",
+					"text": "nonce:",
+					"top": 412,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_nonce": {
+					"type": "input",
+					"dataSource": "[Transactions:3]nonce:9",
+					"top": 412,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_r": {
+					"type": "text",
+					"text": "r:",
+					"top": 449,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_r": {
+					"type": "input",
+					"dataSource": "[Transactions:3]r:10",
+					"top": 449,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_s": {
+					"type": "text",
+					"text": "s:",
+					"top": 486,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_s": {
+					"type": "input",
+					"dataSource": "[Transactions:3]s:11",
+					"top": 486,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_to": {
+					"type": "text",
+					"text": "to:",
+					"top": 194,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_to": {
+					"type": "input",
+					"dataSource": "[Transactions:3]to:12",
+					"top": 194,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_transactionIndex": {
+					"type": "text",
+					"text": "transactionIndex:",
+					"top": 520,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_transactionIndex": {
+					"type": "input",
+					"dataSource": "[Transactions:3]transactionIndex:13",
+					"top": 520,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_v": {
+					"type": "text",
+					"text": "v:",
+					"top": 557,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_v": {
+					"type": "input",
+					"dataSource": "[Transactions:3]v:14",
+					"top": 557,
+					"left": 120,
+					"width": 330,
+					"height": 17,
+					"enterable": false
+				},
+				"label_value": {
+					"type": "text",
+					"text": "value:",
+					"top": 228,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_value": {
+					"type": "input",
+					"dataSource": "[Transactions:3]value:15",
+					"top": 228,
+					"left": 120,
+					"width": 150,
+					"height": 17,
+					"enterable": false
+				},
+				"field_number1": {
+					"type": "input",
+					"dataSource": "u_HexToDec ([Transactions:3]blockNumber:2)",
+					"top": 87,
+					"left": 281,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "bold",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "left",
+					"dataSourceTypeHint": "number",
+					"numberFormat": "###,###,###,##0"
+				},
+				"bLast": {
+					"type": "button",
+					"text": "Last",
+					"top": 12,
+					"left": 292,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "lastRecord",
+					"sizingX": "move",
+					"style": "bevel"
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 12,
+					"left": 380,
+					"width": 70,
+					"height": 29,
+					"dataSource": "bCancel",
+					"focusable": false,
+					"text": "Close",
+					"style": "bevel",
+					"events": [
+						"onClick"
+					],
+					"action": "cancel",
+					"sizingX": "move"
+				},
+				"pNexit": {
+					"type": "button",
+					"text": "Next",
+					"top": 12,
+					"left": 217,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "nextRecord",
+					"sizingX": "move",
+					"style": "bevel"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Prev",
+					"top": 12,
+					"left": 142,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "previousRecord",
+					"sizingX": "move",
+					"style": "bevel"
+				},
+				"bFirst": {
+					"type": "button",
+					"text": "First",
+					"top": 12,
+					"left": 67,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "firstRecord",
+					"sizingX": "move",
+					"style": "bevel"
+				},
+				"field_number4": {
+					"type": "input",
+					"dataSource": "u_HexToDec ([Transactions:3]gas:5)",
+					"top": 264,
+					"left": 281,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "normal",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "left",
+					"dataSourceTypeHint": "number",
+					"numberFormat": "###,###,###,##0"
+				},
+				"field_number2": {
+					"type": "input",
+					"dataSource": "u_HexToDec ([Transactions:3]gasPrice:6)",
+					"top": 301,
+					"left": 281,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "normal",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "left",
+					"dataSourceTypeHint": "number",
+					"numberFormat": "###,###,###,##0"
+				},
+				"field_number3": {
+					"type": "input",
+					"dataSource": "u_HexToDec ([Transactions:3]value:15)",
+					"top": 228,
+					"left": 281,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "normal",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "left",
+					"dataSourceTypeHint": "number",
+					"numberFormat": "###,###,###,##0"
+				}
+			},
+			"entryOrder": [
+				"bFirst",
+				"Button2",
+				"pNexit",
+				"bLast",
+				"bCancel",
+				"field_ID",
+				"field_blockNumber",
+				"field_number1",
+				"field_blockHash",
+				"field_from",
+				"field_to",
+				"field_value",
+				"field_gas",
+				"field_number4",
+				"field_gasPrice",
+				"field_number2",
+				"field_hash",
+				"field_input",
+				"field_nonce",
+				"field_r",
+				"field_s",
+				"field_transactionIndex",
+				"field_v",
+				"field_number3"
+			]
+		}
+	]
+}

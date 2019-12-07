@@ -1,5 +1,8 @@
 ﻿{
 	"methods": {
+		"Blocks_List": {
+			"timeStamp": "2019-12-07T21:15:13.271Z"
+		},
 		"Pref_load": {
 			"timeStamp": "2019-12-04T20:54:19.594Z"
 		},
@@ -9,14 +12,29 @@
 		"Blockchain_Explorer": {
 			"timeStamp": "2019-12-04T20:54:19.594Z"
 		},
+		"eth_createRecords": {
+			"timeStamp": "2019-12-07T21:12:38.706Z"
+		},
 		"eth_Main": {
 			"timeStamp": "2019-12-04T20:54:19.595Z"
 		},
 		"Pref_dialog": {
 			"timeStamp": "2019-12-04T21:04:00.467Z"
 		},
+		"u_HexToDate": {
+			"timeStamp": "2019-12-07T21:38:39.393Z"
+		},
 		"u_LoadWithTimeout": {
 			"timeStamp": "2019-12-04T20:54:19.595Z"
+		},
+		"u_Unix_Epoch_Time_To_ISO_DTS": {
+			"timeStamp": "2019-12-07T21:37:57.778Z"
+		},
+		"Transactions_List": {
+			"timeStamp": "2019-12-07T21:15:48.057Z"
+		},
+		"u_HexToDec": {
+			"timeStamp": "2019-12-07T16:25:22.137Z"
 		},
 		"Pref_save": {
 			"timeStamp": "2019-12-04T20:54:19.594Z"

@@ -1,0 +1,612 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"label_ID": {
+					"type": "text",
+					"text": "ID:",
+					"top": 22,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_ID": {
+					"type": "input",
+					"dataSource": "[Blocks:2]ID:1",
+					"top": 22,
+					"left": 120,
+					"width": 250,
+					"height": 17,
+					"enterable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"focusable": false,
+					"textAlign": "left"
+				},
+				"label_number": {
+					"type": "text",
+					"text": "number:",
+					"top": 59,
+					"left": 10,
+					"width": 100,
+					"height": 17,
+					"fontWeight": "bold"
+				},
+				"field_number": {
+					"type": "input",
+					"dataSource": "[Blocks:2]number:2",
+					"top": 59,
+					"left": 120,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "bold",
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_difficulty": {
+					"type": "text",
+					"text": "difficulty:",
+					"top": 96,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_difficulty": {
+					"type": "input",
+					"dataSource": "[Blocks:2]difficulty:3",
+					"top": 96,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_extraData": {
+					"type": "text",
+					"text": "extraData:",
+					"top": 133,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_extraData": {
+					"type": "input",
+					"dataSource": "[Blocks:2]extraData:4",
+					"top": 133,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_gasLimit": {
+					"type": "text",
+					"text": "gasLimit:",
+					"top": 170,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_gasLimit": {
+					"type": "input",
+					"dataSource": "[Blocks:2]gasLimit:5",
+					"top": 170,
+					"left": 120,
+					"width": 120,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_gasUsed": {
+					"type": "text",
+					"text": "gasUsed:",
+					"top": 207,
+					"left": 10,
+					"width": 66,
+					"height": 16
+				},
+				"field_gasUsed": {
+					"type": "input",
+					"dataSource": "[Blocks:2]gasUsed:6",
+					"top": 207,
+					"left": 120,
+					"width": 120,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_hash": {
+					"type": "text",
+					"text": "hash:",
+					"top": 244,
+					"left": 10,
+					"width": 100,
+					"height": 17,
+					"fontWeight": "normal"
+				},
+				"field_hash": {
+					"type": "input",
+					"dataSource": "[Blocks:2]hash:7",
+					"top": 244,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"fontWeight": "normal",
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_logsBloom": {
+					"type": "text",
+					"text": "logsBloom:",
+					"top": 281,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_logsBloom": {
+					"type": "input",
+					"dataSource": "[Blocks:2]logsBloom:8",
+					"top": 281,
+					"left": 120,
+					"width": 350,
+					"height": 97,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_miner": {
+					"type": "text",
+					"text": "miner:",
+					"top": 398,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_miner": {
+					"type": "input",
+					"dataSource": "[Blocks:2]miner:9",
+					"top": 398,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_mixHash": {
+					"type": "text",
+					"text": "mixHash:",
+					"top": 435,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_mixHash": {
+					"type": "input",
+					"dataSource": "[Blocks:2]mixHash:10",
+					"top": 435,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_nonce": {
+					"type": "text",
+					"text": "nonce:",
+					"top": 472,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_nonce": {
+					"type": "input",
+					"dataSource": "[Blocks:2]nonce:11",
+					"top": 472,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_parentHash": {
+					"type": "text",
+					"text": "parentHash:",
+					"top": 509,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_parentHash": {
+					"type": "input",
+					"dataSource": "[Blocks:2]parentHash:12",
+					"top": 509,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_receiptsRoot": {
+					"type": "text",
+					"text": "receiptsRoot:",
+					"top": 546,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_receiptsRoot": {
+					"type": "input",
+					"dataSource": "[Blocks:2]receiptsRoot:13",
+					"top": 546,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_sha3Uncles": {
+					"type": "text",
+					"text": "sha3Uncles:",
+					"top": 583,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_sha3Uncles": {
+					"type": "input",
+					"dataSource": "[Blocks:2]sha3Uncles:14",
+					"top": 583,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_size": {
+					"type": "text",
+					"text": "size:",
+					"top": 620,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_size": {
+					"type": "input",
+					"dataSource": "[Blocks:2]size:15",
+					"top": 620,
+					"left": 120,
+					"width": 154,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_stateRoot": {
+					"type": "text",
+					"text": "stateRoot:",
+					"top": 657,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_stateRoot": {
+					"type": "input",
+					"dataSource": "[Blocks:2]stateRoot:16",
+					"top": 657,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_timestamp": {
+					"type": "text",
+					"text": "timestamp:",
+					"top": 694,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_timestamp": {
+					"type": "input",
+					"dataSource": "[Blocks:2]timestamp:17",
+					"top": 694,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_totalDifficulty": {
+					"type": "text",
+					"text": "totalDifficulty:",
+					"top": 731,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_totalDifficulty": {
+					"type": "input",
+					"dataSource": "[Blocks:2]totalDifficulty:18",
+					"top": 731,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_transactionsRoot": {
+					"type": "text",
+					"text": "transactionsRoot:",
+					"top": 768,
+					"left": 10,
+					"width": 120,
+					"height": 17
+				},
+				"field_transactionsRoot": {
+					"type": "input",
+					"dataSource": "[Blocks:2]transactionsRoot:19",
+					"top": 768,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"label_uncles": {
+					"type": "text",
+					"text": "uncles:",
+					"top": 805,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_uncles": {
+					"type": "input",
+					"dataSource": "[Blocks:2]uncles:20",
+					"top": 805,
+					"left": 120,
+					"width": 350,
+					"height": 17,
+					"enterable": false,
+					"fill": "automatic"
+				},
+				"lbTrans": {
+					"type": "listbox",
+					"left": 495,
+					"top": 53,
+					"width": 546,
+					"height": 769,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "currentSelection",
+					"table": "Transactions",
+					"doubleClickInRowAction": "displaySubrecord",
+					"showFooters": false,
+					"columns": [
+						{
+							"header": {
+								"text": "Hash",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "[Transactions:3]hash:7",
+							"width": 150
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Value"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "[Transactions:3]value:15",
+							"width": 80
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "From"
+							},
+							"name": "Column3",
+							"dataSource": "[Transactions:3]from:4",
+							"footer": {
+								"name": "Footer3"
+							},
+							"width": 150
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "To"
+							},
+							"name": "Column4",
+							"dataSource": "[Transactions:3]to:12",
+							"footer": {
+								"name": "Footer4"
+							},
+							"width": 150
+						}
+					]
+				},
+				"bLast": {
+					"type": "button",
+					"text": "Last",
+					"top": 6,
+					"left": 883,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "lastRecord",
+					"sizingX": "move",
+					"style": "bevel"
+				},
+				"bCancel": {
+					"type": "button",
+					"top": 6,
+					"left": 971,
+					"width": 70,
+					"height": 29,
+					"dataSource": "bCancel",
+					"focusable": false,
+					"text": "Close",
+					"style": "bevel",
+					"events": [
+						"onClick"
+					],
+					"action": "cancel",
+					"sizingX": "move"
+				},
+				"pNexit": {
+					"type": "button",
+					"text": "Next",
+					"top": 6,
+					"left": 808,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "nextRecord",
+					"sizingX": "move",
+					"style": "bevel"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Prev",
+					"top": 6,
+					"left": 733,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "previousRecord",
+					"sizingX": "move",
+					"style": "bevel"
+				},
+				"bFirst": {
+					"type": "button",
+					"text": "First",
+					"top": 6,
+					"left": 658,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "firstRecord",
+					"sizingX": "move",
+					"style": "bevel"
+				},
+				"field_number1": {
+					"type": "input",
+					"dataSource": "u_HexToDec ([Blocks:2]number:2)",
+					"top": 59,
+					"left": 281,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "bold",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "left",
+					"dataSourceTypeHint": "number",
+					"numberFormat": "###,###,##0"
+				},
+				"field_number2": {
+					"type": "input",
+					"dataSource": "u_HexToDec ([Blocks:2]size:15)",
+					"top": 620,
+					"left": 281,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "normal",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "left",
+					"dataSourceTypeHint": "number",
+					"numberFormat": "###,###,##0"
+				},
+				"field_number3": {
+					"type": "input",
+					"dataSource": "u_HexToDec ([Blocks:2]gasUsed:6)",
+					"top": 206,
+					"left": 281,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "normal",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "left",
+					"dataSourceTypeHint": "number",
+					"numberFormat": "###,###,##0"
+				},
+				"field_number4": {
+					"type": "input",
+					"dataSource": "u_HexToDec ([Blocks:2]gasLimit:5)",
+					"top": 170,
+					"left": 281,
+					"width": 154,
+					"height": 17,
+					"fontWeight": "normal",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"textAlign": "left",
+					"dataSourceTypeHint": "number",
+					"numberFormat": "###,###,##0"
+				}
+			}
+		}
+	]
+}
