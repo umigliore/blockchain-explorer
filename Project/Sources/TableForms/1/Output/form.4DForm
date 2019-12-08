@@ -16,7 +16,7 @@
 	"events": [
 		"onLoad"
 	],
-	"windowTitle": "Preference Dialog",
+	"windowTitle": "Preference",
 	"destination": "listScreen",
 	"pages": [
 		{
@@ -80,5 +80,6 @@
 			}
 		}
 	],
-	"menuBar": "Barre #1"
+	"menuBar": "Barre #1",
+	"method": "method.4dm"
 }

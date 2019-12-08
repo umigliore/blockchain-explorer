@@ -14,7 +14,8 @@
 	"markerHeader": 30,
 	"markerBody": 60,
 	"events": [
-		"onLoad"
+		"onLoad",
+		"onOutsideCall"
 	],
 	"windowTitle": "Transactions",
 	"destination": "listScreen",
@@ -152,5 +153,6 @@
 				}
 			}
 		}
-	]
+	],
+	"method": "method.4dm"
 }

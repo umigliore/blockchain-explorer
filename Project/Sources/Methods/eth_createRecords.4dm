@@ -14,4 +14,4 @@ If (Records in selection:C76([Blocks:2])#1)
 	End if 
 	
 End if 
-QUERY:C277([Blocks:2];[Blocks:2]number:2=$obj.number)
+UNLOAD RECORD:C212([Blocks:2])
