@@ -28,6 +28,19 @@
 					"startNewProcess": true
 				},
 				{
+					"title": "Blocks...",
+					"method": "Blocks_List",
+					"startNewProcess": true
+				},
+				{
+					"title": "Transactions...",
+					"method": "Transactions_List",
+					"startNewProcess": true
+				},
+				{
+					"isSeparator": true
+				},
+				{
 					"title": "Preferences...",
 					"method": "Pref_dialog",
 					"startNewProcess": true

@@ -14,9 +14,99 @@
 			</editor_table_info>
 		</table_extra>
 	</table>
+	<table name="Blocks" uuid="FA70E12E983947F696C74BCA972D47A5" id="2">
+		<field name="ID" uuid="A06A0AA488594A5DBBE15BDA4689FBD8" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="number" uuid="6B739C88A0C345259D51E1BA32F6DA59" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="difficulty" uuid="25049B64C843410FBFFCE97CC6952A87" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="extraData" uuid="0AF35ABA69C74561A24A7F47556CF7FE" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="gasLimit" uuid="EB163C73403047E69CBA6F01186CAE00" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="gasUsed" uuid="4559ED4A53A540FCB9A5A0591805751B" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="hash" uuid="437FF3424135459EA4ACB824AB901534" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="logsBloom" uuid="3476DA04840A476A81BA7D52ADEAD5A0" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="miner" uuid="715B362DACF3483C8022244BFB0C75F3" type="10" limiting_length="255" never_null="true" id="9"/>
+		<field name="mixHash" uuid="D9EC47A03AE148AFB06860E87C8A6184" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="nonce" uuid="BD12FB1169F04CE9AE5E959BB1C001B3" type="10" limiting_length="18" never_null="true" id="11"/>
+		<field name="parentHash" uuid="8BA103207E3A4E7DB78AA46D4E7C4415" type="10" limiting_length="255" never_null="true" id="12"/>
+		<field name="receiptsRoot" uuid="946CA22975364771BBBF9C4B2E4CDD81" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="sha3Uncles" uuid="56E027E8664B47F8AE8E9B9DC1149AC6" type="10" limiting_length="255" never_null="true" id="14"/>
+		<field name="size" uuid="4EAECBEBA0AC4A61A2E2EF63D4B20643" type="10" limiting_length="255" never_null="true" id="15"/>
+		<field name="stateRoot" uuid="5F0AAFDDEBF448E8B4F6944577344F00" type="10" limiting_length="255" never_null="true" id="16"/>
+		<field name="timestamp" uuid="D250CE99A11B4063A6EC6C7EE0A20F98" type="10" limiting_length="255" never_null="true" id="17"/>
+		<field name="totalDifficulty" uuid="2D66E3ECBBB643008BBAFB7D3818FC49" type="10" limiting_length="255" never_null="true" id="18"/>
+		<field name="transactionsRoot" uuid="EDF82D5612154606A325852147178B35" type="10" limiting_length="255" never_null="true" id="19"/>
+		<field name="uncles" uuid="8CA1E963FD124EBA9A0DC31405149721" type="10" limiting_length="255" never_null="true" id="20"/>
+		<primary_key field_name="ID" field_uuid="A06A0AA488594A5DBBE15BDA4689FBD8"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="23">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="240" top="40" width="143.55078125" height="529.84375"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Transactions" uuid="21D65D5612AE4C929653D2B0A938CA36" id="3">
+		<field name="ID" uuid="7750934981A742A399C98DFEDBD6416F" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="blockNumber" uuid="EA8F1F44BF984B91B8B1DB0BDBD0E80F" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="blockHash" uuid="C8A449828A0349C3B381F9B7938F4AD9" type="10" limiting_length="255" never_null="true" id="3"/>
+		<field name="from" uuid="4B4EFC8082B84F9B88A32CDDE889A7B0" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="gas" uuid="70A8E3B5FF8E43F2BE5508B33F6B7918" type="10" limiting_length="255" never_null="true" id="5"/>
+		<field name="gasPrice" uuid="F0D298A441C047C59D54F77B7DC9F0AB" type="10" limiting_length="255" never_null="true" id="6"/>
+		<field name="hash" uuid="D0F2FF16222E4A0795C3A48E50A94294" type="10" limiting_length="255" never_null="true" id="7"/>
+		<field name="input" uuid="DC43F5848AC94E22B75390C27A877F68" type="10" limiting_length="255" never_null="true" id="8"/>
+		<field name="nonce" uuid="E03388E5467F4FB0B35BF66B02366370" type="10" limiting_length="18" never_null="true" id="9"/>
+		<field name="r" uuid="CE07FDC4BBDE462E854352B01D85324B" type="10" limiting_length="255" never_null="true" id="10"/>
+		<field name="s" uuid="9C1F44C70CA74DA580F311EA5EA05DEC" type="10" limiting_length="255" never_null="true" id="11"/>
+		<field name="to" uuid="6687101A84974036BD22D9072C00BD72" type="10" limiting_length="255" never_null="true" id="12"/>
+		<field name="transactionIndex" uuid="2610A9027FFB41BCA6342C08A67BA471" type="10" limiting_length="255" never_null="true" id="13"/>
+		<field name="v" uuid="B052EB7A190A48A4B092336C06CC9E56" type="10" limiting_length="255" never_null="true" id="14"/>
+		<field name="value" uuid="F2171006AE264B68A0B7B617346BC6B1" type="10" limiting_length="255" never_null="true" id="15"/>
+		<primary_key field_name="ID" field_uuid="7750934981A742A399C98DFEDBD6416F"/>
+		<table_extra input_form="Input" output_form="Output">
+			<editor_table_info displayable_fields_count="17">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="449.484375" top="162.4375" width="120" height="404.87890625"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="6D4B7C5887E748CC99F3CA31BC97DC66" name_Nto1="Link_1" name_1toN="Link_1_return" auto_load_Nto1="true" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="EA8F1F44BF984B91B8B1DB0BDBD0E80F" name="blockNumber">
+				<table_ref uuid="21D65D5612AE4C929653D2B0A938CA36" name="Transactions"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="6B739C88A0C345259D51E1BA32F6DA59" name="number">
+				<table_ref uuid="FA70E12E983947F696C74BCA972D47A5" name="Blocks"/>
+			</field_ref>
+		</related_field>
+		<relation_extra entry_wildchar="false" entry_create="false" choice_field="0" entry_autofill="false">
+			<editor_relation_info via_point_x="0" via_point_y="0" prefers_left="true" smartlink="true">
+				<color red="255" green="255" blue="255" alpha="0"/>
+			</editor_relation_info>
+		</relation_extra>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="9F13D39638E346B7ABA60C8922958A2C" type="7">
+		<field_ref uuid="A06A0AA488594A5DBBE15BDA4689FBD8" name="ID">
+			<table_ref uuid="FA70E12E983947F696C74BCA972D47A5" name="Blocks"/>
+		</field_ref>
+	</index>
 	<index kind="regular" unique_keys="true" uuid="D22F542DE9BD459D8F24C59F3E78EA27" type="7">
 		<field_ref uuid="FE21CDC217A04B9EAE6631FE831C01D9" name="ID">
 			<table_ref uuid="D01253A1D096430ABB9B91C592BD8AF0" name="Preferences"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="E7FAA7551322411D90CDBB897876F427" type="7">
+		<field_ref uuid="6B739C88A0C345259D51E1BA32F6DA59" name="number">
+			<table_ref uuid="FA70E12E983947F696C74BCA972D47A5" name="Blocks"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="EF231190B404427DB316BF4DE2216239" type="7">
+		<field_ref uuid="EA8F1F44BF984B91B8B1DB0BDBD0E80F" name="blockNumber">
+			<table_ref uuid="21D65D5612AE4C929653D2B0A938CA36" name="Transactions"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="FE49F4599F224E72AB23C2C48EA56057" type="7">
+		<field_ref uuid="7750934981A742A399C98DFEDBD6416F" name="ID">
+			<table_ref uuid="21D65D5612AE4C929653D2B0A938CA36" name="Transactions"/>
 		</field_ref>
 	</index>
 	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0">

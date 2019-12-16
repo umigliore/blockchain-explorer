@@ -18,26 +18,26 @@
 	"destination": "detailScreen",
 	"pages": [
 		{
-			"objects": {}
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "©2019 Nexid srl, all rights reserved.",
+					"top": 872,
+					"left": 16,
+					"width": 584,
+					"height": 16,
+					"sizingX": "grow",
+					"sizingY": "move"
+				}
+			}
 		},
 		{
 			"objects": {
-				"tResult": {
-					"type": "input",
-					"left": 15,
-					"top": 47,
-					"width": 582,
-					"height": 417,
-					"enterable": false,
-					"dataSource": "tResult",
-					"sizingX": "grow",
-					"sizingY": "grow"
-				},
 				"Button": {
 					"type": "button",
 					"text": "Read Last Block",
 					"top": 13,
-					"left": 17,
+					"left": 16,
 					"width": 139,
 					"height": 27,
 					"events": [
@@ -45,15 +45,18 @@
 					],
 					"method": "ObjectMethods/Button.4dm"
 				},
-				"Text": {
-					"type": "text",
-					"text": "©2019 Nexid srl, all rights reserved.",
-					"top": 472,
-					"left": 13,
-					"width": 584,
-					"height": 16,
+				"tResult": {
+					"type": "input",
+					"left": 16,
+					"top": 48,
+					"width": 569,
+					"height": 785,
+					"enterable": false,
+					"dataSource": "tResult",
 					"sizingX": "grow",
-					"sizingY": "move"
+					"sizingY": "grow",
+					"scrollbarHorizontal": "automatic",
+					"scrollbarVertical": "automatic"
 				}
 			}
 		}

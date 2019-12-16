@@ -1,0 +1,94 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"bAll": {
+					"type": "button",
+					"text": "All",
+					"top": 11,
+					"left": 14,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "",
+					"sizingX": "fixed",
+					"style": "bevel",
+					"method": "ObjectMethods/bAll.4dm",
+					"focusable": false
+				},
+				"bQuery": {
+					"type": "button",
+					"text": "Query...",
+					"top": 11,
+					"left": 89,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "",
+					"sizingX": "fixed",
+					"style": "bevel",
+					"method": "ObjectMethods/bQuery.4dm",
+					"focusable": false
+				},
+				"bSort": {
+					"type": "button",
+					"text": "Sort",
+					"top": 11,
+					"left": 172,
+					"width": 63,
+					"height": 29,
+					"events": [
+						"onClick"
+					],
+					"action": "",
+					"sizingX": "fixed",
+					"style": "bevel",
+					"method": "ObjectMethods/bSort.4dm",
+					"focusable": false
+				}
+			}
+		}
+	],
+	"markerFooter": 49,
+	"markerBreak": 49,
+	"markerBody": 49,
+	"markerHeader": 49
+}
