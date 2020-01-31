@@ -1,4 +1,15 @@
 //%attributes = {}
+  // ----------------------------------------------------
+  // User name (OS): Umberto Migliore
+  // Date and time: 31/01/20, 14:33:16
+  // ----------------------------------------------------
+  // Method: eth_createRecords
+  // Description
+  // 
+  //
+  // Parameters
+  // ----------------------------------------------------
+
 C_OBJECT:C1216($1;$obj)
 C_COLLECTION:C1488($aTrans;0)
 $obj:=$1

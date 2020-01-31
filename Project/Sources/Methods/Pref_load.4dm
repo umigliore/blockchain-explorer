@@ -8,6 +8,7 @@
   // search for a preference (name $1)
   // create a default value (optional, value $2)
   // ----------------------------------------------------
+
 C_OBJECT:C1216($0;$2)
 C_TEXT:C284($1)
 

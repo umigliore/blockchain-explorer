@@ -1,5 +1,4 @@
 //%attributes = {}
-
   // ----------------------------------------------------
   // User name (OS): Umberto Migliore
   // Date and time: 04/12/19, 12:18:34
@@ -9,6 +8,7 @@
   // search for a preference (name $1)
   // create a default value (optional, value $2)
   // ----------------------------------------------------
+
 C_TEXT:C284($1)
 C_OBJECT:C1216($2)
 
