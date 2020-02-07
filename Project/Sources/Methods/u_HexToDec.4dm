@@ -9,7 +9,9 @@
   // https://kb.4d.com/assetid=77655
   // ----------------------------------------------------
 
-C_LONGINT:C283($0;$location;$length;$total;$a;$thisValue)
+C_LONGINT:C283($location;$length;$a;$thisValue)
+C_REAL:C285($0;$total)
+
 C_TEXT:C284($1;$hex)
 If (Count parameters:C259=1)
 	$hex:=$1

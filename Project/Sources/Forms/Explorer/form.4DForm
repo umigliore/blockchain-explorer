@@ -33,7 +33,7 @@
 		},
 		{
 			"objects": {
-				"Button": {
+				"btnReadLastBlock": {
 					"type": "button",
 					"text": "Read Last Block",
 					"top": 13,
@@ -43,20 +43,48 @@
 					"events": [
 						"onClick"
 					],
-					"method": "ObjectMethods/Button.4dm"
+					"method": "ObjectMethods/btnReadLastBlock.4dm"
 				},
 				"tResult": {
 					"type": "input",
 					"left": 16,
-					"top": 48,
+					"top": 83,
 					"width": 569,
-					"height": 785,
+					"height": 737,
 					"enterable": false,
 					"dataSource": "tResult",
 					"sizingX": "grow",
 					"sizingY": "grow",
 					"scrollbarHorizontal": "automatic",
 					"scrollbarVertical": "automatic"
+				},
+				"btnGetBalance": {
+					"type": "button",
+					"text": "Get Balance",
+					"top": 13,
+					"left": 175,
+					"width": 139,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/btnGetBalance.4dm"
+				},
+				"Input": {
+					"type": "input",
+					"left": 81,
+					"top": 50,
+					"width": 519,
+					"height": 17,
+					"dataSource": "anAddress"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Address",
+					"top": 48,
+					"left": 19,
+					"width": 86,
+					"height": 16
 				}
 			}
 		}
